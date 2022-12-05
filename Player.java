@@ -23,7 +23,7 @@ public class Player {
           return name;
       }
       public void upScore(){
-          
+          score+=1;
       }
 
 
