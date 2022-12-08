@@ -10,5 +10,7 @@ public class Board {
     }
     public static void takePieces(int num){
         pile-=num;
+           
+        
     }
 }
