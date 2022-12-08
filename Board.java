@@ -3,13 +3,14 @@ public class Board {
 
 
     public static void populate(){
-        pile = (int)(Math.random()*41+10);
+        pile = 3;
+        //pile = (int)(Math.random()*41+10);
     }
     public static int getPieces(){
         return pile;
     }
     public static void takePieces(int num){
-        pile-=num;
+       pile = pile-num;
            
         
     }
