@@ -9,7 +9,7 @@ public class GameRunner
   {
     System.out.println("Welcome to the Game of Nim!");
 
-    Board.populate(); // static method call
+    //Board.populate(); // static method call
     
     Game nim = new Game(); 
     nim.play();
