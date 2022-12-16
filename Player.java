@@ -1,7 +1,10 @@
 import java.util.Scanner;
+
 public class Player {
     private String name;
     private int score;
+    
+    // Creates the players; prompts the players for their names
     public Player(){
         score = 0;
         System.out.println("Enter Player Name: ");
